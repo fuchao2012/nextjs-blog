@@ -11,7 +11,10 @@ export default function Home({allPostsData}) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <section className={utilStyles.headingMd}>…</section>
+            <noscript>js is disabled</noscript>
+            <section className={utilStyles.headingMd}>
+                This is my Next.js Blog
+            </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
                 <ul className={utilStyles.list}>
